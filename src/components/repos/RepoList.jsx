@@ -9,8 +9,6 @@ function RepoList({repos}) {
             <h2 className="text-3xl my-4 font-bold card-title">
                 Latest Repositories
             </h2>
-            {console.log(repos)}
-            {console.log('----asdads---')}
             {repos.map((repo) => (
           <RepoItem key={repo.id} repo={repo} />
         ))}
